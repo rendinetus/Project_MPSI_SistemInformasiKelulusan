@@ -29,7 +29,7 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
     <script src="js/bootswatch.js"></script>
 </head>
 
-<body style="background: url('images/bg.png') repeat;">
+<body style="background: url('images/bg.jpeg') repeat;">
     <?php
     include "c-header.php";
     ?>

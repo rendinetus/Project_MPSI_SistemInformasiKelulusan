@@ -1,11 +1,11 @@
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse navbar-fixed-top btn btn-success">
     <div class="container">
         <div class="navbar-header">
             <?php
             require "config.php";
             $p = mysqli_query($koneksi, "SELECT * FROM tbl_profil WHERE  id_profil='1'");
             while ($data = mysqli_fetch_array($p)) {
-                echo '<a href="" class="navbar-brand"><img src="images/home.png" height="100%"><b>&nbsp&nbsp ' . $data['nm_aplikasi'] . '</b> </a>';
+                echo '<a href="sik_final_2" class="navbar-brand"><img src="images/home.png" height="100%"><b>&nbsp&nbsp ' . $data['nm_aplikasi'] . '</b> </a>';
             } ?>
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
                 <span class="icon-bar"></span>

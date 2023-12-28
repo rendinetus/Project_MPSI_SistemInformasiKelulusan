@@ -11,7 +11,7 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
 
 ?>
 <hr>
-<div class="alert alert-dismissable alert-success">
+<div class="alert alert-dismissable alert-danger">
     <h4 align=" center"><b>
             <script language="JavaScript">
                 TargetDate = "<?= $tgl_pengumuman ?>";
@@ -21,7 +21,7 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
                 CountStepper = -1;
                 LeadingZero = true;
                 DisplayFormat = "WAKTU PENGUMUMAN KELULUSAN </br>%%D%% : %%H%% : %%M%% : %%S%%";
-                FinishMessage = "PENGUMUMAN STATUS KELULUSAN</br>TAHUN <?= $tahun ?> DIBUKA";
+                FinishMessage = "PENGUMUMAN STATUS KELULUSAN</br>TAHUN <?= $tahun ?> Telah DIBUKA !";
             </script>
             <script language="JavaScript" src="js/countdown.js"></script>
         </b></h4>
