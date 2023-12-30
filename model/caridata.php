@@ -17,9 +17,9 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>SISTEM INFORMASI KELULUSAN ONLINE</title>
+    <title>SIK ONLINE</title>
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="assets/style.css" media="screen">
     <link rel="stylesheet" href="css/bootswatch.min.css">
     <link rel="stylesheet" href="css/jasny-bootstrap.min.css">
     <link rel="icon" type="image/png" href="images/logo.png">
@@ -40,9 +40,9 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
                     </br>
                     <div class="container" style="height: 100%; display: flex; justify-content: center; align-items: center;">
                         <div style="top: 50%; transform:translate(0, -50%); position: absolute;">
-                            <div class="well">
+                            <div class="well btn btn-success">
                                 <p align="center"><img src="images/logo.png" height="75" /></p>
-                                <h4 align="center" style="margin: 15px 0 -10px 0;"><b>SISTEM INFORMASI</br>HASIL KELULUSAN SISWA SMA MATHALA'UL ANWAR</b></h4>
+                                <h4 align="center" style="margin: 15px 0 -10px 0;color : white;"><b>SISTEM INFORMASI</br>HASIL KELULUSAN SISWA SMA MATHALA'UL ANWAR</b></h4>
                                 <hr>
                                 <script>
                                     function cekNo() {
@@ -72,7 +72,7 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
                                                 <input type="text" class="form-control" name="nisn" placeholder="KETIK/MASUKKAN NOMOR NISN" size="auto">
                                             </div>
                                             <div class="form-group" style="margin-bottom: -10px;">
-                                                <p align="center"><b><input type="SUBMIT" name="SUBMIT" id="SUBMIT" value="PERIKSA DATA" class="btn btn-danger"></b></p>
+                                                <p align="center"><b><input type="SUBMIT" name="SUBMIT" id="SUBMIT" value="PERIKSA DATA" class="btn btn-warning"></b></p>
                                             </div>
                                         </fieldset>
                                     </form>
