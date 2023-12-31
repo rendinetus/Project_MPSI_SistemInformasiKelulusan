@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse navbar-fixed-bottom btn btn-success">
+<div class="navbar navbar-inverse navbar-fixed-bottom btn-success">
     <?php
     require "config.php";
     $p = mysqli_query($koneksi, "SELECT * FROM tbl_profil WHERE  id_profil='1'");

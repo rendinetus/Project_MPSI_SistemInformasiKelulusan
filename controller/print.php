@@ -1,8 +1,7 @@
 <html>
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>ctk_print_skl</title>
+   <title>.</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -40,7 +39,7 @@
                                 <p align='left'><img src='../images/logo.png' height='90' /></p>
                             </td>
                             <td>
-                                <h4 align='center'><b>KEMENTERIAN AGAMA</br>MADRASAH ALIYAH NEGERI 2 SITUBONDO</b></h4>
+                                <h4 align='center'><b>KEMENTERIAN AGAMA</br>SMA MATHALA'UL ANWAR</b></h4>
                                 <p align='center'>Jalan Argopuro No. 55 (0338) 671983 Situbondo 68322</p>
                                 <p align='center' style="margin-top: -10px;">E-mail : office@man2situbondo.sch.id</p>
                             </td>

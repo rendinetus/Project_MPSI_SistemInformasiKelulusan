@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <br>
+  <br>
+</body>
+</html>
 <?php
 function tgl_indo($tanggal)
 {
@@ -65,7 +77,7 @@ while ($data = mysqli_fetch_array($result)) {  //fetch the result from query int
     <td colspan='4' align='center'><font color='#000000' size='4' style='font-weight: bold;';>STATUS KELULUSAN DINYATAKAN</td>
   </tr>
   <tr>
-    <td colspan='4' align='center'><font color='#0066FF' size='6' style='text-transform: uppercase;'><b>" . $data['ket'] . "</b></td>
+    <td colspan='4' align='center'><font color='#c71c22' size='6' style='text-transform: uppercase;'><b>" . $data['ket'] . "</b></td>
   </tr>
   <tr class='success'>
     <td colspan='4' align='center'><b>Apapun hasil yang didapat, semoga ini adalah yang terbaik, tetap semangat dan optimis.</b></td>

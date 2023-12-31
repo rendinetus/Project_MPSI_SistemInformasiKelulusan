@@ -98,10 +98,13 @@ if (isset($_SESSION['username']) and $_SESSION['pass']) {
                     </div>
                 </div>
             </div>
-        </div>
+        </div>    <br>
+        <br>
+        <br>
         <?php
         include "../controller/footer.php";
         ?>
+    
         </body>
 
         </html>

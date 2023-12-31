@@ -11,6 +11,9 @@
         <div class="table-responsive" id="dynamic_content" style="margin-bottom: -25px;">
         </div>
 </div>
+<br>
+<br>
+<br>
 <script>
     $(document).ready(function() {
         load_data(1);

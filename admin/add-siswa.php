@@ -116,9 +116,13 @@ if (isset($_SESSION['username']) and $_SESSION['pass']) {
             </fieldset>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
     <?php
     include "../controller/footer.php";
     ?>
+    
     </body>
 
     </html>
