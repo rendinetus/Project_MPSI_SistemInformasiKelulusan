@@ -16,7 +16,7 @@
         <div class="navbar-collapse collapse" id="navbar-main">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="caridata"><span class='glyphicon glyphicon-briefcase' aria-hidden='true'></span>&nbsp;<b> CEK KELULUSAN</b></a></li>
-                <li class="btn btn-danger"><a href="login"><span class='glyphicon glyphicon-lock ' aria-hidden='true'></span>&nbsp;<b> LOGIN</b></a></li>
+                <li class="btn-warning"><a href="login"><span class='glyphicon glyphicon-lock ' aria-hidden='true'></span>&nbsp;<b> LOGIN</b></a></li>
             </ul>
         </div>
     </div>
