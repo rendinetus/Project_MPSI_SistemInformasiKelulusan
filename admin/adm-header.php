@@ -5,8 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>SISTEM INFORMASI KELULUSAN ONLINE</title>
-    <link rel="stylesheet" href="../css/bootstrap.css" media="screen">
+    <title>SIK ONLINE</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/bootswatch.min.css">
     <link rel="stylesheet" href="../css/jasny-bootstrap.min.css">
     <link rel="icon" type="image/png" href="../images/logo.png">
@@ -20,7 +20,7 @@ include "../controller/box-message.php";
 ?>
 
 <body style="background: url('../images/bg.png') repeat;">
-    <div class="navbar navbar-inverse navbar-fixed-top btn btn-success" >
+    <div class="navbar navbar-inverse navbar-fixed-top btn-primary" >
         <div class="container">
             <div class="navbar-header">
                 <?php

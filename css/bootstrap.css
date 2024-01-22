@@ -299,7 +299,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #ce2020;
+  color: green;
   text-decoration: none;
 }
 a:hover,
@@ -4569,8 +4569,8 @@ a.thumbnail.active {
   color: inherit;
 }
 .alert-success {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
+  background-color: snow;
+  border-color: seagreen;
   color: #468847;
 }
 .alert-success hr {

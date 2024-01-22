@@ -23,13 +23,15 @@
           }
         }
       </script>
-      - <b>ADMINISTRATOR SISTEM INFORMASI KELULUSAN!</b>
     </h4>
   </div>
   <div class=" alert alert-dismissable alert-success" style="margin-bottom: 0px;">
-    <h4 align="left" style="text-transform: uppercase;"> SELAMAT DATANG <b><?php echo $_SESSION['namauser']; ?></b> ANDA LOGIN SEBAGAI <strong><?php echo $_SESSION['username']; ?></strong>
+    <h4 align="left" style="text-transform: uppercase;"> <b><?php echo $_SESSION['namauser']; ?></b> ANDA LOGIN SEBAGAI <strong><?php echo $_SESSION['username']; ?></strong>
       </b>
     </h4>
     </h4>
   </div>
 </div>
+<br>
+<br>
+<br>

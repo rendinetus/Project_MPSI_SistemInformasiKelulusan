@@ -70,7 +70,7 @@ if (isset($_SESSION['username']) and $_SESSION['pass']) {
 
                     <div class="input-group" style="margin-bottom: 5px;">
                         <span class="input-group-addon" id="basic-addon1" style="min-width: 170px; text-align: left;"><b>TANGGAL LAHIR</b></span>
-                        <input type="text" placeholder="FORMAT HARI/BULAN/TAHUN CONTOH 30/08/200" class="form-control" name="tgllhr" size="50" style="text-align: left;" required="yes">
+                        <input type="text" placeholder="FORMAT HARI/BULAN/TAHUN CONTOH 30/08/2001" class="form-control" name="tgllhr" size="50" style="text-align: left;" required="yes">
                     </div>
                     <div class="input-group" style="margin-bottom: 5px;">
                         <span class="input-group-addon" id="basic-addon1" style="min-width: 170px; text-align: left;"><b>JURUSAN</b></span>
@@ -89,7 +89,7 @@ if (isset($_SESSION['username']) and $_SESSION['pass']) {
                     </div>
                     <div class="input-group" style="margin-bottom: 5px;">
                         <span class="input-group-addon" id="basic-addon1" style="min-width: 170px; text-align: left;"><b>KELAS</b></span>
-                        <input type="text" placeholder="CONTOH: X IPA 1" class="form-control" name="kelas" size="50" style="text-align: left;" required="yes">
+                        <input type="text" placeholder="CONTOH: XII IPA " class="form-control" name="kelas" size="50" style="text-align: left;" required="yes">
                     </div>
                     <div class="input-group" style="margin-bottom: 5px;">
                         <span class="input-group-addon" id="basic-addon1" style="min-width: 170px; text-align: left;"><b>SEKOLAH</b></span>
@@ -116,9 +116,13 @@ if (isset($_SESSION['username']) and $_SESSION['pass']) {
             </fieldset>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
     <?php
     include "../controller/footer.php";
     ?>
+    
     </body>
 
     </html>

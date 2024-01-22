@@ -3,8 +3,8 @@ include('../controller/config.php');
 
 // menangkap data yang di kirim dari form
 //$id_profil = $_GET['id_profil'];
-$nm_sekolah = $_POST['nm_sekolah'];
-$nm_aplikasi = $_POST['nm_aplikasi'];
+//$nm_sekolah = $_POST['nm_sekolah'];
+//$nm_aplikasi = $_POST['nm_aplikasi'];
 $tahun = $_POST['tahun'];
 
 // update data ke database
