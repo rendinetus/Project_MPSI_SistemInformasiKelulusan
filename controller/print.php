@@ -39,12 +39,9 @@
                                 <p align='left'><img src='../images/logo.png' height='90' /></p>
                             </td>
                             <td>
-                                <h4 align='center'><b>KEMENTERIAN AGAMA</br>SMA MATHALA'UL ANWAR</b></h4>
-                                <p align='center'>Jalan Argopuro No. 55 (0338) 671983 Situbondo 68322</p>
-                                <p align='center' style="margin-top: -10px;">E-mail : office@man2situbondo.sch.id</p>
-                            </td>
-                            <td width='20%'>
-                                <p align='right'><img src='../images/logo_sekolah.png' height='90' /></p>
+                                <h4 align='center'><b>SMA MATHALA'UL ANWAR</b></h4>
+                                <p align='center'>Jalan Terusan Kopo No.302 (022) 5434045 Margahayu, Kab. Bandung 40222</p>
+                                <p align='center' style="margin-top: -10px;">E-mail : smathlaulanwar@yahoo.com</p>
                             </td>
                             <!-- Akhir pengaturan KOP Surat Kelulusan Siswa -->
                         </tr>
@@ -112,173 +109,180 @@
                                         diberi cap basah sekolah</p>.
                                     </td>
                                 </tr>
+                                <tr class='danger'>
+                                    <td colspan='4' align='left'>
+                                        <p style='text-indent: 40px;'><b>Catatan:</b> Jika ingin hasil kelulusan dengan nilai
+                                        bisa diambil di sekolah <b>" . $data['sekolah'] . "</b> dan 
+                                        diberi cap basah sekolah</p>.
+                                    </td>
+                                </tr>
                                 </table>";
                         // echo "<div class='page_break_after'></div>";
-                        echo "  <table width='100%' class='tab1'>
-                                <tr class='success'>
-                                    <td colspan='3' align='center'><font color='#000000' size='4' style='font-weight: bold;'>DAFTAR NILAI MADRASAH</td>
-                                </tr>
-                                <tr class='danger'>
-                                    <td width='480'><strong>Nama Mata Pelajaran</strong></td>
-                                    <td width='100' align='center'><strong> Nilai </strong></td>
-                                </tr>
-                                <tr class='warning'>
-                                    <td colspan='3' align='center'><b>Kelompok A (Umum)</b></td>
-                                </tr> 
-                                <tr>
-                                    <td colspan='3'>1. Pendidikan Agama Islam</td>
-                                </tr>";
-                        while ($data1 = mysqli_fetch_array($aa)) {
-                            if ($data1['no_urut'] == 1) {
-                                echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; a. $data1[nm_mapel]</td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai1'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 2) {
-                                echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; b. $data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai2'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 3) {
-                                echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; c. $data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai3'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 4) {
-                                echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; d. $data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai4'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 5) {
-                                echo "  <tr><td>2.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai5'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 6) {
-                                echo "  <tr><td>3.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai6'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 7) {
-                                echo "  <tr><td>4.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai7'] . "</strong></td>
-                                        </tr>";;
-                            }
-                            if ($data1['no_urut'] == 8) {
-                                echo "  <tr><td>5.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai8'] . "</strong></td>
-                                        </tr>";;
-                            }
-                            if ($data1['no_urut'] == 9) {
-                                echo "  <tr><td>6.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai9'] . "</strong></td>
-                                        </tr>";;
-                            }
-                            if ($data1['no_urut'] == 10) {
-                                echo "  <tr><td>7.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai10'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 11) {
-                                echo "  <tr class='warning'>
-                                            <td colspan='3' align='center'><b>Kelompok B (Umum)</b></td>
-                                        </tr>";
-                                echo "  <tr><td>1.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai11'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 12) {
-                                echo "  <tr><td>2.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai12'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 13) {
-                                echo "  <tr><td>3.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai13'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data1['no_urut'] == 14) {
-                                echo "  <tr><td>4. Mulok:&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai14'] . "</strong></td>
-                                        </tr>";
-                            }
-                            if ($data['nm_jurusan'] == "IPA") {
-                                if ($data1['no_urut'] == 15) {
-                                    echo "  <tr class='warning'>
-                                                <td colspan='3' align='center'><b>Kelompok C (Peminatan)</b></td>
-                                            </tr>";
-                                    echo "  <tr><td>1.&nbsp;$data1[nm_mapel] </td>
-                                                    <td colspan='3' align='center'><strong> " . $data['nilai15'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 16) {
-                                    echo "  <tr><td>2.&nbsp;$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai16'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 17) {
-                                    echo "  <tr><td>3.&nbsp;$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai17'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 18) {
-                                    echo "  <tr><td>4.&nbsp;$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai18'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 23) {
-                                    echo "  <tr class='warning'>
-                                                <td colspan='3'>5. Pilihan Lintas Minat/Pendalaman Minat</td>
-                                            </tr>";
-                                    echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; a. $data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai23'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 24) {
-                                    echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; b. $data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai24'] . "</strong></td>
-                                            </tr>";
-                                }
-                            } else {
-                                if ($data1['no_urut'] == 19) {
-                                    echo "  <tr class='warning'>
-                                            <td colspan='3' align='center'><b>Kelompok C (Peminatan)</b></td>
-                                        </tr>";
-                                    echo "  <tr><td>1.&nbsp;$data1[nm_mapel] </td>
-                                            <td colspan='3' align='center'><strong> " . $data['nilai19'] . "</strong></td>
-                                        </tr>";
-                                }
-                                if ($data1['no_urut'] == 20) {
-                                    echo "  <tr><td>2.&nbsp;$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai20'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 21) {
-                                    echo "  <tr><td>3.&nbsp;$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai21'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 22) {
-                                    echo "  <tr><td>4.&nbsp;$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai22'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 25) {
-                                    echo "  <tr class='warning'>
-                                                <td colspan='3'>5. Pilihan Lintas Minat/Pendalaman Minat</td>
-                                            </tr>";
-                                    echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; a. $data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai25'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 26) {
-                                    echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; b. $data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['nilai26'] . "</strong></td>
-                                            </tr>";
-                                }
-                            }
-                        }
-                        echo "</table>";
+                        //echo "  <table width='100%' class='tab1'>
+                        //        <tr class='success'>
+                        //            <td colspan='3' align='center'><font color='#000000' size='4' style='font-weight: bold;'>DAFTAR NILAI MADRASAH</td>
+                        //        </tr>
+                        //        <tr class='danger'>
+                        //            <td width='480' ><strong>Nama Mata Pelajaran</strong></td>
+                        //            <td width='100' align='center'><strong> Nilai </strong></td>
+                        //        </tr>
+                        //        <tr class='warning'>
+                        //            <td colspan='3' align='center'><b>Kelompok A (Umum)</b></td>
+                        //        </tr> 
+                        //        <tr>
+                        //            <td colspan='3'>1. Pendidikan Agama Islam</td>
+                        //        </tr>";
+                        //while ($data1 = mysqli_fetch_array($aa)) {
+                        //    if ($data1['no_urut'] == 1) {
+                        //        echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; a. $data1[nm_mapel]</td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai1'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 2) {
+                        //        echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; b. $data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai2'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 3) {
+                        //        echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; c. $data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai3'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 4) {
+                        //        echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; d. $data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai4'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 5) {
+                        //        echo "  <tr><td>2.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai5'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //   if ($data1['no_urut'] == 6) {
+                        //        echo "  <tr><td>3.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai6'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 7) {
+                        //        echo "  <tr><td>4.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai7'] . "</strong></td>
+                        //                </tr>";;
+                        //    }
+                        //    if ($data1['no_urut'] == 8) {
+                        //        echo "  <tr><td>5.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai8'] . "</strong></td>
+                        //                </tr>";;
+                        //    }
+                        //    if ($data1['no_urut'] == 9) {
+                        //        echo "  <tr><td>6.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai9'] . "</strong></td>
+                        //                </tr>";;
+                        //    }
+                        //    if ($data1['no_urut'] == 10) {
+                        //        echo "  <tr><td>7.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai10'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 11) {
+                        //        //echo "  <tr class='warning'>
+                                //            <td colspan='3' align='center'><b>Kelompok B (Peminatan)</b></td>
+                                //        </tr>";
+                        //        echo "  <tr><td>1.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai11'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 12) {
+                        //        echo "  <tr><td>2.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai12'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 13) {
+                        //        echo "  <tr><td>3.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai13'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data1['no_urut'] == 14) {
+                        //        echo "  <tr><td>4. Mulok:&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai14'] . "</strong></td>
+                        //                </tr>";
+                        //    }
+                        //    if ($data['nm_jurusan'] == "IPA") {
+                        //        if ($data1['no_urut'] == 15) {
+                        //            //echo "  <tr class='warning'>
+                                    //           <td colspan='3' align='center'><b>Kelompok C (Peminatan)</b></td>
+                                    //        </tr>";
+                        //            echo "  <tr><td>1.&nbsp;$data1[nm_mapel] </td>
+                        //                            <td colspan='3' align='center'><strong> " . $data['nilai15'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 16) {
+                        //            echo "  <tr><td>2.&nbsp;$data1[nm_mapel] </td>
+                        //                       <td colspan='3' align='center'><strong> " . $data['nilai16'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 17) {
+                        //            echo "  <tr><td>3.&nbsp;$data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai17'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 18) {
+                        //           echo "  <tr><td>4.&nbsp;$data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai18'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 23) {
+                        //            echo "  <tr class='warning'>
+                        //                        <td colspan='3'>5. Pilihan Lintas Minat/Pendalaman Minat</td>
+                        //                    </tr>";
+                        //            echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; a. $data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai23'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 24) {
+                        //            echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; b. $data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai24'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //    } else {
+                        //        if ($data1['no_urut'] == 19) {
+                        //            //echo "  <tr class='warning'>
+                        //            //        <td colspan='3' align='center'><b>Kelompok C (Peminatan)</b></td>
+                        //           //    </tr>";
+                        //            echo "  <tr><td>1.&nbsp;$data1[nm_mapel] </td>
+                        //                    <td colspan='3' align='center'><strong> " . $data['nilai19'] . "</strong></td>
+                        //                </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 20) {
+                        //            echo "  <tr><td>2.&nbsp;$data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai20'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 21) {
+                        //            echo "  <tr><td>3.&nbsp;$data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai21'] . "</strong></td>
+                        //                    </tr>";
+                        //       }
+                        //        if ($data1['no_urut'] == 22) {
+                        //            echo "  <tr><td>4.&nbsp;$data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai22'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 25) {
+                        //            echo "  <tr class='warning'>
+                        //                        <td colspan='3'>5. Pilihan Lintas Minat/Pendalaman Minat</td>
+                        //                    </tr>";
+                        //            echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; a. $data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai25'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //        if ($data1['no_urut'] == 26) {
+                        //            echo "  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp; b. $data1[nm_mapel] </td>
+                        //                        <td colspan='3' align='center'><strong> " . $data['nilai26'] . "</strong></td>
+                        //                    </tr>";
+                        //        }
+                        //    }
+                        //}
+                        //echo "</table>";
                     }
                     ?>
                 </div>

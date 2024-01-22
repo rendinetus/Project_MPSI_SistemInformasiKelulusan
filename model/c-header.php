@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse navbar-fixed-top btn btn-success">
+<div class="navbar navbar-inverse navbar-fixed-top btn btn-primary">
     <div class="container">
         <div class="navbar-header">
             <?php

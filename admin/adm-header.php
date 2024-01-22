@@ -20,7 +20,7 @@ include "../controller/box-message.php";
 ?>
 
 <body style="background: url('../images/bg.png') repeat;">
-    <div class="navbar navbar-inverse navbar-fixed-top btn-success" >
+    <div class="navbar navbar-inverse navbar-fixed-top btn-primary" >
         <div class="container">
             <div class="navbar-header">
                 <?php

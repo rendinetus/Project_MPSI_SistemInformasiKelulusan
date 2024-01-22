@@ -61,7 +61,6 @@ if ($total_data > 0) {
       <td style="text-transform: uppercase;">' . $row["ket"] . '</td>
       <td>' .
       '<div class="btn-group" role="group" aria-label="...">
-      <a href="addnilai.php?no=' . $row["no"] . '"class="btn btn-xs btn-warning" title="Nilai"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Nilai</a>
       <a href="editsiswa.php?no=' . $row["no"] . '"class="btn btn-xs btn-info" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>&nbsp;Edit</a>
       <a href="adm-delete.php?no=' . $row["no"] . '" class="btn btn-xs btn-danger" title="Hapus"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>&nbsp;Del</a>
       </div>' . '</td>
