@@ -39,7 +39,7 @@
                                 <p align='left'><img src='../images/logo.png' height='90' /></p>
                             </td>
                             <td>
-                                <h4 align='center'><b>SMA MATHALA'UL ANWAR</b></h4>
+                                <h4 align='center'><b>SMA MATHLA'UL ANWAR</b></h4>
                                 <p align='center'>Jalan Terusan Kopo No.302 (022) 5434045 Margahayu, Kab. Bandung 40222</p>
                                 <p align='center' style="margin-top: -10px;">E-mail : smathlaulanwar@yahoo.com</p>
                             </td>
@@ -101,22 +101,23 @@
                                 </tr>
                                 <tr class='warning'>
                                     <td colspan='4' align='center'><font color='#0066FF' size='5' style='text-transform: uppercase;'><b>" . $data['ket'] . "</b></td>
-                                </tr>
+                                </tr> 
+                                 
                                 <tr class='danger'>
-                                    <td colspan='4' align='left'>
-                                        <p style='text-indent: 40px;'><b>Catatan:</b> Jika ada perbedaan data pengumuman online dan manual, maka yang menjadi acuan 
+                                <td colspan='4' align='left'>
+                                <p style='text-indent: 40px;'><b>Catatan:</b> Jika ada perbedaan data pengumuman online dan manual, maka yang menjadi acuan 
                                         adalah dokumen asli Kelulusan yang telah disahkan, ditandatangani oleh Kepala Sekolah <b>" . $data['sekolah'] . "</b> dan 
-                                        diberi cap basah sekolah</p>.
+                                    diberi cap basah sekolah</p>
                                     </td>
-                                </tr>
-                                <tr class='danger'>
-                                    <td colspan='4' align='left'>
-                                        <p style='text-indent: 40px;'><b>Catatan:</b> Jika ingin hasil kelulusan dengan nilai
-                                        bisa diambil di sekolah <b>" . $data['sekolah'] . "</b> dan 
-                                        diberi cap basah sekolah</p>.
-                                    </td>
-                                </tr>
-                                </table>";
+                                </tr> ";
+                              //  <tr class='danger'>
+                                   //<td colspan='4' align='left'>
+                                //        <p style='text-indent: 40px;'>Jika ingin hasil kelulusan dengan nilai
+                                  //      bisa diambil di sekolah <b>" . $data['sekolah'] . "</b> dan 
+                                     //   diberi cap basah sekolah</p>.
+                                //</td>
+                                //</tr>
+                                    //</table>";
                         // echo "<div class='page_break_after'></div>";
                         //echo "  <table width='100%' class='tab1'>
                         //        <tr class='success'>
